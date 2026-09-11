@@ -6,20 +6,17 @@
 </p>
 
 <p align="center">
-  Zhanghao Chen<sup>*</sup>, Yuanyuan Li<sup>*</sup>, Zhenyu Lu<sup>*</sup>, Shuo Gao,<br>
+  <a href="https://benny0323.github.io">Zhanghao Chen</a><sup>*</sup>, Yuanyuan Li<sup>*</sup>, Zhenyu Lu<sup>*</sup>, Shuo Gao,<br>
   Guangquan Zhou<sup>†</sup>, and Yikun Zhang<sup>†</sup><br>
   Southeast University, Nanjing, China<br>
   <sup>*</sup>Equal contribution &nbsp; <sup>†</sup>Corresponding authors
 </p>
 
 <p align="center">
-  <a href="https://huggingface.co/BennyZhanghaoChan/Task3-2D-LIST-SEU-Zhanghao_Chen-Testing_Submission">Model weights</a>
-  ·
-  <a href="#quick-start">Quick start</a>
-  ·
-  <a href="#method">Method</a>
-  ·
-  <a href="#validation-results">Results</a>
+  <a href="https://huggingface.co/BennyZhanghaoChan/Task3-2D-LIST-SEU-Zhanghao_Chen-Testing_Submission"><img src="https://img.shields.io/badge/Model%20weights-fbbf24?style=for-the-badge&amp;logo=huggingface&amp;logoColor=black" alt="Model weights" /></a>
+  <a href="https://github.com/YuanYL03/MICCAI-FLARE-2026-Challenge-Task3-2D#quick-start"><img src="https://img.shields.io/badge/Quick%20start-2563eb?style=for-the-badge&amp;logo=rocket&amp;logoColor=white" alt="Quick start" /></a>
+  <a href="https://github.com/YuanYL03/MICCAI-FLARE-2026-Challenge-Task3-2D#method"><img src="https://img.shields.io/badge/Method-7c3aed?style=for-the-badge&amp;logo=readthedocs&amp;logoColor=white" alt="Method" /></a>
+  <a href="https://github.com/YuanYL03/MICCAI-FLARE-2026-Challenge-Task3-2D#validation-results"><img src="https://img.shields.io/badge/Results-059669?style=for-the-badge&amp;logo=target&amp;logoColor=white" alt="Results" /></a>
 </p>
 
 ## Overview
