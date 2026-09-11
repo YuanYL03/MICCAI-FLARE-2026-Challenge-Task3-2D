@@ -1,7 +1,7 @@
 # Two-Stage Mixture-of-LoRA for Medical VLMs
 
 <p align="center">
-  <b>LIST-SEU submission for MICCAI FLARE 2026 Task 3: 2D Medical Image Understanding</b><br>
+  <b>LIST-SEU submission for MICCAI FLARE 2026 Task 3-2D: Medical Image Understanding</b><br>
   A single MedGemma-1.5-4B-IT backbone with a shared LoRA and six task-specific experts.
 </p>
 
@@ -17,7 +17,7 @@
 
 ## Overview
 
-This repository releases the inference implementation for our FLARE 2026 Task 3 submission. The system uses **MedGemma-1.5-4B-IT** as the only vision-language backbone and supports all six benchmark tasks:
+This repository releases the inference implementation for our FLARE 2026 Task 3-2D submission. The system uses **MedGemma-1.5-4B-IT** as the only vision-language backbone and supports all six benchmark tasks:
 
 | Task | Output |
 |---|---|
@@ -28,7 +28,7 @@ This repository releases the inference implementation for our FLARE 2026 Task 3 
 | Regression | Numeric value |
 | Report generation | Free-text report |
 
-The model weights are hosted separately on Hugging Face: [BennyZhanghaoChan/Task3-2D-LIST-SEU-Zhanghao\_Chen-Testing\_Submission](https://huggingface.co/BennyZhanghaoChan/Task3-2D-LIST-SEU-Zhanghao_Chen-Testing_Submission). No model weights, source data, predictions, or patient data are stored in this repository.
+The model weights are hosted separately on Hugging Face: [released adapter bundle](https://huggingface.co/BennyZhanghaoChan/Task3-2D-LIST-SEU-Zhanghao_Chen-Testing_Submission). No model weights, source data, predictions, or patient data are stored in this repository.
 
 ## Method
 
@@ -57,7 +57,7 @@ FLARE-MLLM-2D contains heterogeneous tasks and imaging modalities. The train, pu
 The table below reports validation-public | validation-hidden. `N/A` denotes a split without labels for that task. Higher is better except for MAE.
 
 | Task | Metric | MedGemma-1.5-4B (base) | Ours |
-|---|---|---:|---:|
+|:---:|:---:|:---:|:---:|
 | Classification | Balanced accuracy ↑ | 0.5547 \| 0.7831 | **0.5656 \| 0.8694** |
 | Detection | F1, IoU > 0.5 ↑ | 0.2005 \| 0.0265 | **0.2727 \| N/A** |
 | Multi-label classification | Micro-F1 ↑ | 0.6075 \| 0.4449 | 0.5942 \| **0.4917** |
@@ -76,7 +76,7 @@ Expert-wise refinement improves detection, counting, multi-label classification,
 On the official testing set, the released submission obtains the following scores:
 
 | Detection F1 ↑ | Classification balanced accuracy ↑ | Multi-label Micro-F1 ↑ | Regression MAE ↓ |
-|---:|---:|---:|---:|
+|:---:|:---:|:---:|:---:|
 | **0.7917** | **0.8507** | **0.4809** | **17.3954** |
 
 ## Qualitative examples
@@ -92,8 +92,8 @@ Representative validation examples show correct classification and multi-label p
 ### 1. Clone and create an environment
 
 ```bash
-git clone https://github.com/YuanYL03/MICCAI-FLARE-2026-Challenge-Task-5.git
-cd MICCAI-FLARE-2026-Challenge-Task-5
+git clone https://github.com/YuanYL03/MICCAI-FLARE-2026-Challenge-Task3-2D.git
+cd MICCAI-FLARE-2026-Challenge-Task3-2D
 
 conda create -n flare26-medgemma python=3.11 -y
 conda activate flare26-medgemma
