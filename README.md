@@ -2,7 +2,7 @@
 
 <p align="center">
   <b>LIST-SEU submission for MICCAI FLARE 2026 Task 3-2D: Medical Image Understanding</b><br>
-  A single MedGemma-1.5-4B-IT backbone with a shared LoRA and six task-specific experts.
+  A single MedGemma-1.5-4B backbone with a shared LoRA and six task-specific experts.
 </p>
 
 <p align="center">
