@@ -6,6 +6,13 @@
 </p>
 
 <p align="center">
+  Zhanghao Chen<sup>*</sup>, Yuanyuan Li<sup>*</sup>, Zhenyu Lu<sup>*</sup>, Shuo Gao,<br>
+  Guangquan Zhou<sup>†</sup>, and Yikun Zhang<sup>†</sup><br>
+  Southeast University, Nanjing, China<br>
+  <sup>*</sup>Equal contribution &nbsp; <sup>†</sup>Corresponding authors
+</p>
+
+<p align="center">
   <a href="https://huggingface.co/BennyZhanghaoChan/Task3-2D-LIST-SEU-Zhanghao_Chen-Testing_Submission">Model weights</a>
   ·
   <a href="#quick-start">Quick start</a>
