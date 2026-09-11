@@ -35,7 +35,7 @@ This repository releases the inference implementation for our FLARE 2026 Task 3-
 | Regression | Numeric value |
 | Report generation | Free-text report |
 
-The model weights are hosted separately on Hugging Face: [released adapter bundle](https://huggingface.co/BennyZhanghaoChan/Task3-2D-LIST-SEU-Zhanghao_Chen-Testing_Submission). No model weights, source data, predictions, or patient data are stored in this repository.
+Download the model adapter from [Hugging Face](https://huggingface.co/BennyZhanghaoChan/Task3-2D-LIST-SEU-Zhanghao_Chen-Testing_Submission) before running inference.
 
 ## Method
 
