@@ -1,4 +1,7 @@
-# Two-Stage Mixture-of-LoRA for Medical VLMs
+<h1 align="center">
+  <img src="assets/medical_multimodal_logo.png" width="56" alt="Medical multimodal logo" />
+  Two-Stage Mixture-of-LoRA for Medical VLMs
+</h1>
 
 <p align="center">
   <b>LIST-SEU submission for MICCAI FLARE 2026 Task 3-2D: Medical Image Understanding</b><br>
