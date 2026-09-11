@@ -1,1 +1,1 @@
-# Two-Stage-Mixture-of-LoRA-for-Medical-VLM
+# Two-Stage Mixture-of-LoRA for Medical-VLM
