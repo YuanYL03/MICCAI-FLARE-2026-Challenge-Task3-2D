@@ -1,0 +1,7 @@
+accelerate==1.14.0
+bitsandbytes==0.49.2
+peft==0.19.1
+pillow==12.3.0
+rich==14.2.0
+safetensors==0.8.0
+transformers==5.14.1

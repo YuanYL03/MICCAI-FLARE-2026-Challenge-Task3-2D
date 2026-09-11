@@ -1,0 +1,18 @@
+# Model weights and downloaded Hugging Face snapshots
+checkpoints/
+models/
+weights/
+
+# Inference artefacts
+outputs/
+predictions.json
+*_predictions.jsonl
+inference_details.json
+
+# Python and editor artefacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.DS_Store
+.vscode/
