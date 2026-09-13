@@ -24,7 +24,7 @@
 
 ## Overview
 
-This repository releases the inference implementation for our FLARE 2026 Task 3-2D submission. The system uses **MedGemma-1.5-4B-IT** as the only vision-language backbone and supports all six benchmark tasks:
+This repository releases the inference implementation for our FLARE 2026 Task 3-2D submission. The system uses **MedGemma-1.5-4B** as the only vision-language backbone and supports all six benchmark tasks:
 
 | Task | Output |
 |---|---|
