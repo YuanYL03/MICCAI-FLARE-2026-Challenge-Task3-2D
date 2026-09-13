@@ -39,12 +39,12 @@ Download the model adapter from [Hugging Face](https://huggingface.co/BennyZhang
 
 ## Method
 
-The model augments a frozen MedGemma backbone with one **shared LoRA** and six **task-specific LoRA experts**. At inference time, the shared adapter and the expert matching the known task identity are activated together. The shared adapter carries reusable cross-task image--language knowledge, while each expert specializes in its own visual cues and output format.
+The model uses a **shared-specific Mixture-of-LoRA architecture** that augments a frozen **MedGemma-1.5-4B** backbone with one **shared LoRA** and six **task-specific LoRA experts**. At inference time, the shared adapter and the expert matching the known task identity are activated together. The shared adapter carries reusable cross-task image-language knowledge, while each expert specializes in its own visual cues and output format.
 
 Training follows the two-stage procedure described in the paper. Stage 1 jointly optimizes the shared adapter and all six experts for five epochs. In Stage 2, every expert is refined independently while the backbone, shared adapter, and non-target experts remain frozen. The six expert refinements run for 3, 5, 8, 3, 8, and 3 epochs for classification, detection, multi-label classification, report generation, counting, and regression, respectively. Classification and regression then receive a short three-epoch modality-balanced continuation: smaller modality groups are repeated so that every group has equal exposure in an epoch.
 
 <p align="center">
-  <img src="assets/two_stage_train.jpg" width="92%" alt="Two-stage shared--task-specific Mixture-of-LoRA training" />
+  <img src="assets/two_stage_train.jpg" width="92%" alt="Two-stage shared-specific Mixture-of-LoRA training" />
 </p>
 
 ## Dataset composition
